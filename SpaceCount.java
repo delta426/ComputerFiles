@@ -12,7 +12,7 @@ public class SpaceCount {
 				count++;
 			}
 		}
-		System.out.println(count);
+		System.out.println("total space in string is : "count);
 		
 	}
 
