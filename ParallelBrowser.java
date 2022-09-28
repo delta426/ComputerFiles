@@ -23,6 +23,9 @@ public class ParallelBrowser
 	   {
 		   System.setProperty("webdriver.gecko.driver","./drivers/geckodriver.exe");
 			 driver = new FirefoxDriver();
-	   }
-   }
+	   }else if (browser="ie")
+           {
+                    WebDriverManager.iedriver().setup();
+                    driver=new InternetExplorerDriver();
+           }
 }
