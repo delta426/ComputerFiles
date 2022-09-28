@@ -16,7 +16,7 @@ public class AllCookies
     	//driver.manage().addCookie(arg0);   //Create and add the cookie
     	//driver.manage().deleteCookie(arg0);  // Delete specific cookie
     	//driver.manage().deleteCookieNamed(arg0); // Delete specific cookie according Name
-    driver.manage().deleteAllCookies();  // Delete all cookies
+        driver.manage().deleteAllCookies();  // Delete all cookies
 	}
 
 }
